@@ -2,11 +2,12 @@
 Luftdaten - Grafana Image Renderer Cache amkabutzenhof.de
 
 Init:
- mkdir /var/www/html/amkabutzenhof
- chown -R www-data:www-data amkabutzenhof
+<code>mkdir /var/www/html/amkabutzenhof</code>
+<code>chown -R www-data:www-data amkabutzenhof</code>
+
  
 Run (Manual):
- ./grafana_image_cache.sh
+    ./grafana_image_cache.sh
  
 Run (Automatic):
- cp grafana_image_cache.cron /etc/cron.d/grafana_image_cache
+    cp grafana_image_cache.cron /etc/cron.d/grafana_image_cache
