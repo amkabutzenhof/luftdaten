@@ -1,6 +1,8 @@
 # Am Kabutzenhof
 Luftdaten - Grafana Image Renderer Cache amkabutzenhof.de
 
+https://wiki.opennet-initiative.de/wiki/Benutzer:MathiasMahnke/Luftdaten#Grafana
+
 Init:
 <code>mkdir /var/www/html/amkabutzenhof</code>
 
