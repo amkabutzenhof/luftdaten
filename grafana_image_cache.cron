@@ -1,0 +1,8 @@
+#
+# cron-jobs for grafana_image_cache
+#
+
+MAILTO=root
+
+# create grafana image render cache for amkabutzenhof website
+*/15 * * * *    root if [ -x /root/amkabutzenhof/grafana_image_cache.sh ]; then /root/amkabutzenhof/grafana_image_cache.sh >/dev/null; fi
