@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 DIR="/var/www/html/amkabutzenhof"
 
 # Temperatur
